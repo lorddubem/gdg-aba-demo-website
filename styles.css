@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+}
+
+
+.logo img{
+    overflow: hidden;
+    max-width: 80px;
+    height: 60.50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    align-content: center;
+    gap: 15em;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 15rem;
+    position: fixed;
+    background-color: #db9c9c 'blur';
+    /* opacity: 10%; */
+    
+  
+}
+
+.nav-list{
+    display: flex;
+    position: flex-end;
+}
+
+li, a
+{
+   list-style: none;
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(131, 124, 124);
+}
+.nav-list, li{
+    gap: 3em;
+}
+.btn{
+    background: rgb(72,137,244);
+    color: aliceblue;
+    padding: 10px;
+    font-weight: 50;
+    border-style: none;
+    /* height: 30px; */
+    border-radius: 0.5em;
+    font-size: 1em;
+   
+}
+.btn:hover{
+    background: #ffffff;
+    color:rgb(1, 1, 49);
+}
+.header-text{
+    display: flex;
+}
+.header-text{
+    text-align: center;
+    padding: 20em 23em;
+    padding-bottom: 0%;
+}
+.Co, .Le, .Gr{
+    font-size: 70px;
+    font-weight: 500;
+   
+}
+.Co{
+    color: #010C2D;
+}
+.Le{
+    color: rgb(255, 0, 0);
+}
+.Gr{
+    color: rgb(0, 255, 34);
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: 480;
+    text-align: center;
+    padding: 4rem;
+}
+.hero p{
+    text-align: center;
+    line-height: 1.2em;
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(186, 189, 189);
+}
+.hero img{
+    text-align: center;
+    padding-left: 5em;
+    padding-top: 4rem;
+}
+.officers h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 450;
+    padding-top: 3em;
+}
+.hero{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.profile-1{
+    display: flex;
+    gap: 2.5em;
+    padding: 5em;
+    padding-left: 12em;
+    padding-bottom: 0;
+    
+
+}
+.box{
+    height: 350px;
+    width: 240px;
+    padding: 2em;
+    border-radius: 1.5em;
+    border-width: 3px;
+    background-color: rgb(46, 108, 161);
+}
+.box img{
+    max-width: 25em;
+    width: 15em;
+    height: 10em;
+    border-radius: 0.6em;
+}
+.profile-2{
+    display: flex;
+    gap: 2.5em;
+    padding-top: 2.5em;
+    /* padding: 5em; */
+    padding-left: 12em;
+    padding-bottom: 3em;
+}
